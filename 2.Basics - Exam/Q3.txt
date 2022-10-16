@@ -1,0 +1,9 @@
+   What are primitive data types in C++? 
+
+   integer
+   double
+   float
+   long long
+   short
+   bool
+   char 
