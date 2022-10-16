@@ -1,0 +1,38 @@
+// What is the Difference between composition vs inheritance with example by code
+
+
+Both compositionand inheritance are object - oriented programming concepts.
+
+==> Composition  implement has - a relationship between objects.
+
+==> Inheritance  implement is - a relationship between objects.
+
+
+(example)
+if we have a class called vehicle
+
+vehicle has an engine, a tire ----->  (has a) relationship -----> This is called composition
+when we use class engine or tire -----> we make an object from it inside the class of vehicle
+
+if we make another class called car -----> car is a vehicle ----> (is a) relationship ----> this is called Inheritance
+
+when we use class car ----> we make class car :public vehicle
+Inheritance ----> is useful for code reusability : reuse attributesand methods of an existing class when you create a new class.
+
+class Tire {};
+class Engine {};
+
+class vehicle
+{
+	Tire t;		//composition
+	Engine e;		//composition
+};
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+class car : public vehicle	//inheritance
+{
+public:
+	car() : vehicle() {
+	}
+};
