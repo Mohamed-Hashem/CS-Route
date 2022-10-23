@@ -1,0 +1,20 @@
+Q1. Define the four concepts of OOP with short explain?
+
+1- Encapsulation: 
+	it's mean the ability of hide or show the data by using Access modifier
+	- puplic: we can access the public data in the class or in any another place
+	- private: we can access the private data in the class only
+	- protected: we can access the protected data in main class and its’ child but we cannot access 	  it in main class.
+
+2- Inheritance: 
+	It allow us to create a new classes from the existing and the new class called "child class"
+	and the existing class called "parent class" and the chlid class also inherite all data
+	member from the parent class and the child class can modify the inherited parent' methods
+
+3- Abstraction:
+	It is an Interface describes the behavior of the class without any implementation of 
+	that class. 
+
+4- Polymorphism:
+	the ability of object to having many forms so objects with common parent 
+	may have the same name of function but with different behaviors at run time.

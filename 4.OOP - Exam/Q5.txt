@@ -1,0 +1,9 @@
+Q5. What is the difference between Overloading and Overriding?
+
+Overriding => A rewritten function in child class with the same name of another function 
+	in parent class and with the same signature (Number of parameters, Type of parameters) 
+	and its processing happened in run time (Run Time Polymorphism).
+
+Overloading => A rewritten function with the same name of another function but with 
+	different signature (Number of parameters, Type of parameters) and its processing
+	happened in compile time (Compile Time Polymorphism).

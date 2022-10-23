@@ -1,0 +1,7 @@
+Q2. What is the difference between access modifiers?
+
+Private: private members are accessible inside the class only.
+
+Public: public members are accessible everywhere.
+
+Protected: protected members are accessible inside the class and his childs.
